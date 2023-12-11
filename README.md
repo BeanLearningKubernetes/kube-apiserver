@@ -32,5 +32,3 @@ curl -fv -k --cert-type P12 --cert ./assets/client.p12:password -XGET \
 ```shell
    curl -fv -k --cert-type P12 --cert ./assets/client.p12:password https://localhost:6443/api
 ```
-
-k --kubeconfig ./assets/.kubeconfig.sample run nginx --image=nginx --restart=Never
